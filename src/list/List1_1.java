@@ -1,10 +1,20 @@
 package list;
 
 public class List1_1 {
-	
+
 	public static void main(String[] args) {
-		int i=2;
-		System.out.println("hage");
-		System.out.println("hage");
+		String s1 = "‚·‚Á‚«‚èJava";
+		String s2 = "Java";
+		String s3 = "Java";
+		if(s2.equals(s3)) {
+			System.out.println("s2‚Æs3‚Í“™‚µ‚¢");
+		}
+		if(s2.equalsIgnoreCase(s3)) {
+			System.out.println("s2‚Æs3‚ÍƒP[ƒX‚ğ‹æ•Ê‚µ‚È‚¯‚ê‚Î“™‚µ‚¢");
+		}
+		System.out.println("s1‚Ì’·‚³‚Í"+s1.length()+"‚Å‚·");
+		if(s1.isEmpty()) {
+			System.out.println("s1‚Í‹ó•¶š‚Å‚·");
+		}
 	}
 }
